@@ -3,7 +3,9 @@
 ORG_ID=1
 PRODUCT_NAME="OCP Docker images"
 
-upstream_repos=( openshift3/ose-deployer \ 
+upstream_repos=( openshift3/ose-ansible \
+     openshift3/ose-ansible \
+     openshift3/ose-deployer \ 
      openshift3/ose-docker-registry \
      openshift3/registry-console \
      openshift3/ose-pod \
